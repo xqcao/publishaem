@@ -3,4 +3,3 @@ com/aemdemo/myaemdemo/core/package-info.class
 com/aemdemo/myaemdemo/core/servlets/SimpleServlet.class
 com/aemdemo/myaemdemo/core/schedulers/SimpleScheduledTask.class
 com/aemdemo/myaemdemo/core/listeners/SimpleResourceListener.class
-com/aemdemo/myaemdemo/core/models/HelloWorldModel.class

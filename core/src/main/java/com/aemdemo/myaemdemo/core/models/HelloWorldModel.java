@@ -15,6 +15,8 @@
  */
 package com.aemdemo.myaemdemo.core.models;
 
+import java.util.Date;
+
 import javax.annotation.PostConstruct;
 import javax.inject.Inject;
 import javax.inject.Named;
@@ -37,9 +39,11 @@ public class HelloWorldModel {
 
     @PostConstruct
     protected void init() {
-        message = "\tHello World!\n";
+    	Date dd = new Date();
+        message = "\tHello xiao live  bonsai kkkk    www World!\n";
         message += "\tThis is instance: " + settings.getSlingId() + "\n";
         message += "\tResource type is: " + resourceType + "\n";
+        message += "time is : "+dd.toString() + "\n";
     }
 
     public String getMessage() {
